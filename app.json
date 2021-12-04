@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "search-app",
+    "slug": "search-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/maplogo.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#DAF10C"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/maplogo.png",
+        "backgroundColor": "#E1B2A9"
+      }, 
+      "package": "com.SearchApp.app",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD-JHpXdDtr-Z32X6zdlplljfu8SPByEpU"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
